@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Portfolio</title>
+</head>
+<body>
+    <header>
+        <img src="aw.png" alt="logo"> 
+        <nav style="margin-left: 100px;">
+            <ul>
+                <li><a href="#hero" style="margin-right: 100px;">Hero</a></li>
+                <li><a href="#about" style="margin-right: 100px;">About Me</a></li>
+                <li><a href="#works" style="margin-right: 100px;">Works</a></li>
+                <li><a href="#contacts" style="margin-right: 100px;">Contacts</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle" style="margin:auto;">Dark Mode</button>
+    </header>
+
+    <section id="hero">
+        <h2>Hi! I'm Jared Alemania, Welcome to my portfolio</h2> <br>
+        <img src="me.jpg" alt="readonly" style="width: 300px; height: 350px; background-repeat: no-repeat; margin-left: auto; border-radius: 25px;">
+        <p id="text" style="margin-top: 50px;">I'm a student from Dalubhasaan ng Lungsod ng Lucena, As a student in Information Techonology Department. <br> <br>I am challenging myself to be a Web Developer, so I made this Online Portfolio to enhance my programming <br> <br> specifically in HTML, CSS, and Javascript Language. </p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2> <br>
+        <p id="text">My name is Jared Angelo D. Alemania, and I am currently navigating the exciting realm of Information Technology as a dedicated student. <br> <br>
+            From a young age, I found myself drawn to the world of technology. The allure of computers and their endless possibilities sparked my curiosity, <br> <br> laying the foundation for my eventual pursuit of Information Technology. 
+            As an Information Technology student, my academic journey has been <br> <br> filled with challenging coursework and hands-on experiences. I have eagerly embraced the multifaceted nature of IT, constantly seeking to <br> <br>   deepen my understanding and skills.One of the most rewarding aspects of my IT journey has been the opportunity to engage in various projects. <br> <br> These hands-on experiences have allowed me to apply theoretical knowledge in real-world scenarios, <br> <br> fostering a practical understanding of the subject matter.</p>
+    </section>
+
+    <section id="works">    
+        <h2>Works</h2><br>
+        <h3>Calculator</h3>
+        <img src="cal.png" style="height: 250px; width: 250px; margin: auto;">
+        <button><li><a href="https://alemaniajared24.github.io/Working-Calculator/" style="color: black; text-align: left;" >Click to show</a></li></button> <br>
+        <h3>Landing Page</h3>
+        <img src="land.png" style="height: 250px; width: 250px; margin: auto;">
+        <button><li><a href="https://alemaniajared24.github.io/Responsive-Landing-Page/" style="color: black; text-align: left;" >Click to show</a></li></button> <br>
+        <h3>To-Do List</h3>
+        <img src="todo.png" style="height: 250px; width: 250px; margin: auto;">
+        <button><li><a href="https://alemaniajared24.github.io/To-Do-List-App/" style="color: black; text-align: left;" >Click to show</a></li></button> <br>
+    </section>
+
+    <section id="contacts">
+        <h2>Contact Me</h2>
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form> <br><br>
+        <img src="fb.webp" alt="logo" style="height: 100px; width: 100px; margin: auto; border-radius: 25px;">
+        <button><li><a href="https://www.facebook.com/profile.php?id=100008996941181" style="color: black; text-align: left;" >Message Me at Facebook!</a></li></button> <br> <br> <br>
+        <img src="insta.png" alt="logo" style="height: 70px; width: 100px; margin: auto; border-radius: 25px;">
+        <button><li><a href="https://www.instagram.com/jaredangeloalemania/" style="color: black; text-align: left;" >Message Me at Insta!</a></li></button> <br><br> <br>
+        <img src="gmail.webp" alt="logo" style="height: 70px; width: 100px; margin: auto; border-radius: 25px;">
+        <button><li><a href="https://www.google.com/gmail/about/" style="color: black; text-align: left;" >Message Me at Gmail!</a></li></button> <br><br> <br>
+        <br>
+        <br>
+        <br>
+        <img src="cv.jpg" alt="logo" style="height: 200px; width: 180px; margin: auto; border-radius: 25px;">
+        <button><li><a href="https://alemaniajared24.github.io/online-resume/" style="color: black; text-align: left;" ><br> Download CV</a></li></button> <br><br> <br>
+        <br>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
